@@ -98,6 +98,7 @@ Com a implementação dessa solução a taxa de cancelamento cai para 26%.
 <img width="127" height="57" alt="image (10)" src="https://github.com/user-attachments/assets/9f7bd997-b182-4027-9cf4-e3451bbb644f" />
 
 Histograma dias_atraso
+
 <img width="700" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
 
 *Problema encontrado:*
