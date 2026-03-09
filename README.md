@@ -55,8 +55,8 @@ Lembrando que 1.0 corresponde aos clientes que cancelaram, totalizando quase 57%
 
 Nesta etapa, será compreendido através do retorno dos gráficos qual a causa e como cada coluna impacta no cancelamento dos clientes.
 Histogramas
-<img width="320" height="600" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
-<img width="320" height="600" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
+<img width="400" height="600" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
+<img width="400" height="600" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
 <img width="1083" height="434" alt="tempo_como_cliente" src="https://github.com/user-attachments/assets/60f5bf80-de89-4ce1-8f0d-af150efc5afc" />
 <img width="1090" height="437" alt="frequencia_uso" src="https://github.com/user-attachments/assets/b9a5aec4-8f4c-4fe4-8614-bdde06ebd90d" />
 <img width="1085" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
