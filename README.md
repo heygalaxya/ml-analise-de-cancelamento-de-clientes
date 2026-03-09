@@ -19,7 +19,7 @@ Visualização da base de dados para compreensão das informações relevantes p
 
 - Removida a coluna CustomerID
 <img width="1036" height="323" alt="image (4)" src="https://github.com/user-attachments/assets/2e68718d-c08c-4027-95d2-67da0f5c7222" />
-[*Tabela completa atualizada após a exclusão da coluna CustomerID.*]
+[Tabela completa atualizada após a exclusão da coluna CustomerID.]
 
 - Exclusão de linhas vazias da base de dados
 
@@ -27,10 +27,10 @@ Observado que há algumas linhas vazias na base de dados, sendo poucas e portant
 
 Essa parte do processo é importante para ser totalmente orientada ao que o dado mostra não correndo o risco de não ter como afirmar algo por falta de um dado em uma das linhas que poderiam dar a base para isso.
 
-<img width="412" height="331" alt="image (5)" src="https://github.com/user-attachments/assets/1edff9eb-9359-49a4-9d12-e99639fcb5a0" />
+<img width="300" height="331" alt="image (5)" src="https://github.com/user-attachments/assets/1edff9eb-9359-49a4-9d12-e99639fcb5a0" />
 [Base de dados com linhas vazias]
 
-<img width="409" height="331" alt="image (6)" src="https://github.com/user-attachments/assets/9014e69b-ea09-420a-a177-c5dbd705dd6b" />
+<img width="300" height="331" alt="image (6)" src="https://github.com/user-attachments/assets/9014e69b-ea09-420a-a177-c5dbd705dd6b" />
 [Base de dados com linhas vazias excluídas]
 
 Agora, a base de dados passou a ter 49.996 linhas após a exclusão das linhas vazias ao invés de 50.000 linhas.
