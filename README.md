@@ -5,12 +5,18 @@ Projetos de Machine Learning para investigar em quais momentos do processo os ca
 
 A base de dados possui 50.000 linhas e 12 colunas, sendo elas:
 
-- CustomerID - idade 
-- sexo - tempo_como_cliente
-- frequencia_uso - ligacoes_callcenter
-- dias_atraso - assinatura
-- duracao_contrato - total_gasto
-- meses_ultima_interacao - cancelou
+- CustomerID
+- idade 
+- sexo
+- tempo_como_cliente
+- frequencia_uso
+- ligacoes_callcenter
+- dias_atraso
+- assinatura
+- duracao_contrato
+- total_gasto
+- meses_ultima_interacao
+- cancelou
 
 ## Visualizar a base de dados
 
@@ -23,6 +29,7 @@ Visualização da base de dados para compreensão das informações relevantes p
 - Removida a coluna CustomerID
 <img width="1036" height="323" alt="image (4)" src="https://github.com/user-attachments/assets/2e68718d-c08c-4027-95d2-67da0f5c7222" />
 [*Tabela completa atualizada após a exclusão da coluna CustomerID.*]
+
 - Exclusão de linhas vazias da base de dados
 
 Observado que há algumas linhas vazias na base de dados, sendo poucas e portanto não impactando no resultado final, optei pela exclusão.
@@ -48,8 +55,8 @@ Lembrando que 1.0 corresponde aos clientes que cancelaram, totalizando quase 57%
 
 Nesta etapa, será compreendido através do retorno dos gráficos qual a causa e como cada coluna impacta no cancelamento dos clientes.
 Histogramas
-<img width="1090" height="440" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
-<img width="1087" height="437" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
+<img width="200" height="440" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
+<img width="200" height="437" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
 <img width="1083" height="434" alt="tempo_como_cliente" src="https://github.com/user-attachments/assets/60f5bf80-de89-4ce1-8f0d-af150efc5afc" />
 <img width="1090" height="437" alt="frequencia_uso" src="https://github.com/user-attachments/assets/b9a5aec4-8f4c-4fe4-8614-bdde06ebd90d" />
 <img width="1085" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
