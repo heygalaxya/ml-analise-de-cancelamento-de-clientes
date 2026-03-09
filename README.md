@@ -5,22 +5,13 @@ Projetos de Machine Learning para investigar em quais momentos do processo os ca
 
 A base de dados possui 50.000 linhas e 12 colunas, sendo elas:
 
-- CustomerID
-- idade 
-- sexo
-- tempo_como_cliente
-- frequencia_uso
-- ligacoes_callcenter
-- dias_atraso
-- assinatura
-- duracao_contrato
-- total_gasto
-- meses_ultima_interacao
-- cancelou
+| CustomerID | idade | sexo | tempo_como_cliente | frequencia_uso | ligacoes_callcenter |
+| dias_atraso | assinatura | duracao_contrato | total_gasto | meses_ultima_interacao | cancelou |
 
 ## Visualizar a base de dados
 
 Visualização da base de dados para compreensão das informações relevantes para a análise e se há a necessidade de tratar algum campo por causa do conflito do tipo de dado.
+
 <img width="1102" height="318" alt="image (3)" src="https://github.com/user-attachments/assets/e61350c2-efde-4631-8e51-3a92ca9800d9" />
 [*Tabela completa exibindo as colunas e o preenchimento dos dados dos clientes.* ]
 
@@ -35,8 +26,10 @@ Visualização da base de dados para compreensão das informações relevantes p
 Observado que há algumas linhas vazias na base de dados, sendo poucas e portanto não impactando no resultado final, optei pela exclusão.
 
 Essa parte do processo é importante para ser totalmente orientada ao que o dado mostra não correndo o risco de não ter como afirmar algo por falta de um dado em uma das linhas que poderiam dar a base para isso.
+
 <img width="412" height="331" alt="image (5)" src="https://github.com/user-attachments/assets/1edff9eb-9359-49a4-9d12-e99639fcb5a0" />
 [*Base de dados com linhas vazias*]
+
 <img width="409" height="331" alt="image (6)" src="https://github.com/user-attachments/assets/9014e69b-ea09-420a-a177-c5dbd705dd6b" />
 [*Base de dados com linhas vazias excluídas*]
 Agora, a base de dados passou a ter 49.996 linhas após a exclusão das linhas vazias ao invés de 50.000 linhas.
@@ -44,6 +37,7 @@ Agora, a base de dados passou a ter 49.996 linhas após a exclusão das linhas v
 ## Análise inicial
 
 Neste primeiro momento busca-se entender quantos, em porcentagem, de clientes que cancelaram.
+
 <img width="129" height="116" alt="image (7)" src="https://github.com/user-attachments/assets/fc50520a-b5b2-4af2-8451-8e959f25f5f6" />
 [*Quantidade de cancelamentos*]
 
@@ -55,6 +49,7 @@ Lembrando que 1.0 corresponde aos clientes que cancelaram, totalizando quase 57%
 
 Nesta etapa, será compreendido através do retorno dos gráficos qual a causa e como cada coluna impacta no cancelamento dos clientes.
 Histogramas
+
 <img width="700" height="437" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
 <img width="700" height="435" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
 <img width="700" height="434" alt="tempo_como_cliente" src="https://github.com/user-attachments/assets/60f5bf80-de89-4ce1-8f0d-af150efc5afc" />
@@ -69,7 +64,7 @@ Histogramas
 
 ## Problemas x Soluções Propostas
 Histograma duracao_contrato
-<img width="1077" height="430" alt="duracao_contrato" src="https://github.com/user-attachments/assets/b546a46f-f25f-49d5-926a-aa5f9df4574b" />
+<img width="700" height="430" alt="duracao_contrato" src="https://github.com/user-attachments/assets/b546a46f-f25f-49d5-926a-aa5f9df4574b" />
 
 Problema encontrado: 
 - Todos os clientes que assinam o plano mensal cancelam o serviço.
@@ -79,7 +74,7 @@ Com a implementação dessa solução a taxa de cancelamento cai para 46%.
 <img width="120" height="51" alt="image (9)" src="https://github.com/user-attachments/assets/7e556c46-f7b0-4c8d-acda-fc5f5ecc8217" />
 
 Histograma ligacoes_callcenter
-<img width="1085" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
+<img width="700" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
 
 Problema encontrado: 
 - A maioria dos clientes que ligaram para o callcenter mais de 4 vezes cancelaram o serviço.
@@ -88,7 +83,7 @@ Solução Proposta:
 Com a implementação dessa solução a taxa de cancelamento cai para 26%.
 <img width="127" height="57" alt="image (10)" src="https://github.com/user-attachments/assets/9f7bd997-b182-4027-9cf4-e3451bbb644f" />
 Histograma dias_atraso
-<img width="1090" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
+<img width="700" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
 Problema encontrado: 
 - Se a pessoa passa de 20 dias de atraso no pagamento ela cancela o serviço.
 Solução Proposta:
