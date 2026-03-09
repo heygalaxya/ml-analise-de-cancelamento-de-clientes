@@ -72,8 +72,10 @@ Histograma duracao_contrato
 
 *Problema encontrado:* 
 - Todos os clientes que assinam o plano mensal cancelam o serviço.
+
 *Solução Proposta:*
 - Dar desconto no contrato trimestral ou anual.
+
 Com a implementação dessa solução a taxa de cancelamento cai para 46%.
 <img width="120" height="51" alt="image (9)" src="https://github.com/user-attachments/assets/7e556c46-f7b0-4c8d-acda-fc5f5ecc8217" />
 
@@ -82,8 +84,10 @@ Histograma ligacoes_callcenter
 
 *Problema encontrado:* 
 - A maioria dos clientes que ligaram para o callcenter mais de 4 vezes cancelaram o serviço.
+
 *Solução Proposta:*
 - Acionar um alerta vermelho depois que o cliente ligar pela 3ª vez para o callcenter e entrar um time especifico para resolver o problema.
+
 Com a implementação dessa solução a taxa de cancelamento cai para 26%.
 <img width="127" height="57" alt="image (10)" src="https://github.com/user-attachments/assets/9f7bd997-b182-4027-9cf4-e3451bbb644f" />
 
