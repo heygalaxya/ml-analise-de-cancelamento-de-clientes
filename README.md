@@ -48,15 +48,43 @@ Lembrando que 1.0 corresponde aos clientes que cancelaram, totalizando quase 57%
 
 Nesta etapa, será compreendido através do retorno dos gráficos qual a causa e como cada coluna impacta no cancelamento dos clientes.
 Histogramas
-<img width="1080" height="429" alt="cancelou" src="https://github.com/user-attachments/assets/4627146d-588f-4990-b14d-b9bbae37888b" />
-<img width="1083" height="439" alt="meses_ultima_interacao" src="https://github.com/user-attachments/assets/210f16ea-615f-45b8-90e6-90e21d32c2fd" />
-<img width="1079" height="416" alt="total_gasto" src="https://github.com/user-attachments/assets/aabb6fe1-c9cd-4eb6-b91b-b9fbca7110d8" />
-<img width="1077" height="430" alt="duracao_contrato" src="https://github.com/user-attachments/assets/b546a46f-f25f-49d5-926a-aa5f9df4574b" />
-<img width="1087" height="431" alt="assinatura" src="https://github.com/user-attachments/assets/e85e0f78-5c7a-4894-8c96-c664aa97bc22" />
-<img width="1090" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
-<img width="1085" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
-<img width="1090" height="437" alt="frequencia_uso" src="https://github.com/user-attachments/assets/b9a5aec4-8f4c-4fe4-8614-bdde06ebd90d" />
-<img width="1083" height="434" alt="tempo_como_cliente" src="https://github.com/user-attachments/assets/60f5bf80-de89-4ce1-8f0d-af150efc5afc" />
-<img width="1087" height="437" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
 <img width="1090" height="440" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
+<img width="1087" height="437" alt="sexo" src="https://github.com/user-attachments/assets/9dbadfc1-fa60-4ade-9be7-7bf1ca9a041e" />
+<img width="1083" height="434" alt="tempo_como_cliente" src="https://github.com/user-attachments/assets/60f5bf80-de89-4ce1-8f0d-af150efc5afc" />
+<img width="1090" height="437" alt="frequencia_uso" src="https://github.com/user-attachments/assets/b9a5aec4-8f4c-4fe4-8614-bdde06ebd90d" />
+<img width="1085" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
+<img width="1090" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
+<img width="1087" height="431" alt="assinatura" src="https://github.com/user-attachments/assets/e85e0f78-5c7a-4894-8c96-c664aa97bc22" />
+<img width="1077" height="430" alt="duracao_contrato" src="https://github.com/user-attachments/assets/b546a46f-f25f-49d5-926a-aa5f9df4574b" />
+<img width="1079" height="416" alt="total_gasto" src="https://github.com/user-attachments/assets/aabb6fe1-c9cd-4eb6-b91b-b9fbca7110d8" />
+<img width="1083" height="439" alt="meses_ultima_interacao" src="https://github.com/user-attachments/assets/210f16ea-615f-45b8-90e6-90e21d32c2fd" />
+<img width="1080" height="429" alt="cancelou" src="https://github.com/user-attachments/assets/4627146d-588f-4990-b14d-b9bbae37888b" />
 
+## Problemas x Soluções Propostas
+Histograma duracao_contrato
+<img width="1077" height="430" alt="duracao_contrato" src="https://github.com/user-attachments/assets/b546a46f-f25f-49d5-926a-aa5f9df4574b" />
+
+Problema encontrado: 
+- Todos os clientes que assinam o plano mensal cancelam o serviço.
+Solução Proposta:
+- Dar desconto no contrato trimestral ou anual.
+Com a implementação dessa solução a taxa de cancelamento cai para 46%.
+<img width="120" height="51" alt="image (9)" src="https://github.com/user-attachments/assets/7e556c46-f7b0-4c8d-acda-fc5f5ecc8217" />
+
+Histograma ligacoes_callcenter
+<img width="1085" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
+
+Problema encontrado: 
+- A maioria dos clientes que ligaram para o callcenter mais de 4 vezes cancelaram o serviço.
+Solução Proposta:
+- Acionar um alerta vermelho depois que o cliente ligar pela 3ª vez para o callcenter e entrar um time especifico para resolver o problema.
+Com a implementação dessa solução a taxa de cancelamento cai para 26%.
+<img width="127" height="57" alt="image (10)" src="https://github.com/user-attachments/assets/9f7bd997-b182-4027-9cf4-e3451bbb644f" />
+Histograma dias_atraso
+<img width="1090" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
+Problema encontrado: 
+- Se a pessoa passa de 20 dias de atraso no pagamento ela cancela o serviço.
+Solução Proposta:
+- Entrar com um time específico para entrar em contato com o cliente depois de 15 dias de atraso para tentar recuperá-lo.
+Após a resolução dos três problemas encontrados, a taxa de cancelamento dos clientes caem para 18%.
+<img width="167" height="126" alt="image (11)" src="https://github.com/user-attachments/assets/faf21b9b-4f92-4083-a2b2-2f5d611a014b" />
