@@ -20,7 +20,7 @@ Visualização da base de dados para compreensão das informações relevantes p
 - Removida a coluna CustomerID
 <img width="1036" height="323" alt="image (4)" src="https://github.com/user-attachments/assets/2e68718d-c08c-4027-95d2-67da0f5c7222" />
 [*Tabela completa atualizada após a exclusão da coluna CustomerID.*]
-\
+<br>
 - Exclusão de linhas vazias da base de dados
 
 Observado que há algumas linhas vazias na base de dados, sendo poucas e portanto não impactando no resultado final, optei pela exclusão.
