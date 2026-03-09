@@ -42,13 +42,16 @@ Neste primeiro momento busca-se entender quantos, em porcentagem, de clientes qu
 <img width="129" height="116" alt="image (7)" src="https://github.com/user-attachments/assets/fc50520a-b5b2-4af2-8451-8e959f25f5f6" />
 [Quantidade de cancelamentos]
 
+
 <img width="173" height="129" alt="image (8)" src="https://github.com/user-attachments/assets/ea3ef477-d24b-492f-8b3c-c2baf2b8c00b" />
 [Proporção de cancelamentos]
+
 Lembrando que 1.0 corresponde aos clientes que cancelaram, totalizando quase 57% (embora não arredondado nesse momento para não perder a precisão do cálculo). E o 0.0 corresponde aos clientes que não cancelaram, totalizando 43%.
 
 ## Análise detalhada
 
 Nesta etapa, será compreendido através do retorno dos gráficos qual a causa e como cada coluna impacta no cancelamento dos clientes.
+
 Histogramas
 
 <img width="700" height="437" alt="idade" src="https://github.com/user-attachments/assets/a6b3e53d-5302-4bce-bb63-46990c9d0299" />
@@ -67,9 +70,9 @@ Histogramas
 Histograma duracao_contrato
 <img width="700" height="430" alt="duracao_contrato" src="https://github.com/user-attachments/assets/b546a46f-f25f-49d5-926a-aa5f9df4574b" />
 
-Problema encontrado: 
+*Problema encontrado:* 
 - Todos os clientes que assinam o plano mensal cancelam o serviço.
-Solução Proposta:
+*Solução Proposta:*
 - Dar desconto no contrato trimestral ou anual.
 Com a implementação dessa solução a taxa de cancelamento cai para 46%.
 <img width="120" height="51" alt="image (9)" src="https://github.com/user-attachments/assets/7e556c46-f7b0-4c8d-acda-fc5f5ecc8217" />
@@ -77,17 +80,19 @@ Com a implementação dessa solução a taxa de cancelamento cai para 46%.
 Histograma ligacoes_callcenter
 <img width="700" height="435" alt="ligacoes_callcenter" src="https://github.com/user-attachments/assets/fbd328b3-7045-4ddc-aee1-bdfaea59f119" />
 
-Problema encontrado: 
+*Problema encontrado:* 
 - A maioria dos clientes que ligaram para o callcenter mais de 4 vezes cancelaram o serviço.
-Solução Proposta:
+*Solução Proposta:*
 - Acionar um alerta vermelho depois que o cliente ligar pela 3ª vez para o callcenter e entrar um time especifico para resolver o problema.
 Com a implementação dessa solução a taxa de cancelamento cai para 26%.
 <img width="127" height="57" alt="image (10)" src="https://github.com/user-attachments/assets/9f7bd997-b182-4027-9cf4-e3451bbb644f" />
+
 Histograma dias_atraso
 <img width="700" height="402" alt="dias_atraso" src="https://github.com/user-attachments/assets/dca307c4-25a5-495c-82ec-ffbd0c1d16b2" />
-Problema encontrado: 
+
+*Problema encontrado:*
 - Se a pessoa passa de 20 dias de atraso no pagamento ela cancela o serviço.
-Solução Proposta:
+*Solução Proposta:*
 - Entrar com um time específico para entrar em contato com o cliente depois de 15 dias de atraso para tentar recuperá-lo.
 Após a resolução dos três problemas encontrados, a taxa de cancelamento dos clientes caem para 18%.
 <img width="167" height="126" alt="image (11)" src="https://github.com/user-attachments/assets/faf21b9b-4f92-4083-a2b2-2f5d611a014b" />
