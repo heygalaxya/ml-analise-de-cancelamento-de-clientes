@@ -6,21 +6,21 @@ Projetos de Machine Learning para investigar em quais momentos do processo os ca
 A base de dados possui 50.000 linhas e 12 colunas, sendo elas:
 
 | CustomerID | idade | sexo | tempo_como_cliente | frequencia_uso | ligacoes_callcenter |
-| dias_atraso | assinatura | duracao_contrato | total_gasto | meses_ultima_interacao | cancelou |
+ dias_atraso | assinatura | duracao_contrato | total_gasto | meses_ultima_interacao | cancelou |
 
 ## Visualizar a base de dados
 
 Visualização da base de dados para compreensão das informações relevantes para a análise e se há a necessidade de tratar algum campo por causa do conflito do tipo de dado.
 
 <img width="1102" height="318" alt="image (3)" src="https://github.com/user-attachments/assets/e61350c2-efde-4631-8e51-3a92ca9800d9" />
-[*Tabela completa exibindo as colunas e o preenchimento dos dados dos clientes.* ]
+[Tabela completa exibindo as colunas e o preenchimento dos dados dos clientes.]
 
 ## Tratamento de dados
 
 - Removida a coluna CustomerID
 <img width="1036" height="323" alt="image (4)" src="https://github.com/user-attachments/assets/2e68718d-c08c-4027-95d2-67da0f5c7222" />
 [*Tabela completa atualizada após a exclusão da coluna CustomerID.*]
-
+\
 - Exclusão de linhas vazias da base de dados
 
 Observado que há algumas linhas vazias na base de dados, sendo poucas e portanto não impactando no resultado final, optei pela exclusão.
