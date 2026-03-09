@@ -96,6 +96,7 @@ Histograma dias_atraso
 
 *Problema encontrado:*
 - Se a pessoa passa de 20 dias de atraso no pagamento ela cancela o serviço.
+
 *Solução Proposta:*
 - Entrar com um time específico para entrar em contato com o cliente depois de 15 dias de atraso para tentar recuperá-lo.
 Após a resolução dos três problemas encontrados, a taxa de cancelamento dos clientes caem para 18%.
